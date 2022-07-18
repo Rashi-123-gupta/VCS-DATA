@@ -1,0 +1,21 @@
+.form{
+    border: 1px solid gray;
+    width: 78%;
+    text-align: center;
+    font-size: 21px;
+    margin: 17px 146px;
+    padding: 6px 36px
+}
+input, button{
+    text-align: center;
+    width: 456px;
+    padding: 10px;
+    margin: 10px;
+    position: initial;
+}
+.payment{
+    text-align: center;
+    width: 52%;
+    border: 2px solid;
+    margin-left: 361px;      
+}

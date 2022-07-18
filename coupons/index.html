@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Coupons</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+<link rel="stylesheet" href="style.css">
+    </head>
+</head>
+
+<body>
+    <div class="wrapper">
+
+        <header class="main-header" id="alert">
+            <a href="https://erp.appchalk.com/admin/admin/dashboard" class="logo">
+                <span class="logo-mini"><img
+                        src="https://erp.appchalk.com/uploads/school_content/admin_small_logo/1.png"
+                        alt="App Chalk" /></span>
+                <!-- <span class="logo-lg"><img src="https://erp.appchalk.com/uploads/school_content/admin_logo/1.png" -->
+                        <!-- alt="App Chalk" /></span> -->
+            </a>
+           
+                <div class="col-lg-5 col-md-3 col-sm-2 col-xs-5">
+                    <span href="#" class="sidebar-session" style="color:#005fb4">
+                        App Chalk </span>
+                </div>
+                <div class="col-lg-7 col-md-9 col-sm-10 col-xs-7">
+                    <div class="pull-right">
+
+                        <form id="header_search_form" class="navbar-form navbar-left search-form" role="search"
+                            action="https://erp.appchalk.com/admin/admin/search" method="POST">
+                            <input type='hidden' name='ci_csrf_token' value='' />
+                            <div class="input-group">
+                                <input type="text" value="" name="search_text1" id="search_text1"
+                                    class="form-control search-form search-form3"
+                                    placeholder="Search By Student Name, Roll Number, Enroll Number, National Id, Local Id Etc.">
+                                <span class="input-group-btn">
+                                    <button type="submit" name="search" id="search-btn" onclick="getstudentlist()"
+                                         class="btn btn-flat topsidesearchbtn"><i
+                                            class="fa fa-search"></i></button>
+                                </span>
+                            </div>
+
+                        </form>
+                       </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+<div class="container">
+    <h1>COUPON CARD</h1></h1>
+    <div class="boxes">
+        <div class="box">
+            <img src=" " alt="">
+            <h2>Basic</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p></p>
+            <input type="text" placeholder="Coupon Code">
+            <button>APPLY COUPON</button></button>
+            <button type="submit">Add To Cart</button></button>
+        </div>
+        <div class="box" style="margin-left:43%">
+            <img src=" " alt="">
+            <h2>Ultimate</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p></p>
+            <input type="text" placeholder="Coupon Code">
+            <button>APPLY COUPON</button></button>
+            <button type="submit">Add To Cart</button></button>
+        </div>
+        <div class="box">
+            <img src=" " alt="">
+            <h2>Enterprise</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p></p>
+            <input type="text" placeholder="Coupon Code">
+            <button>APPLY COUPON</button></button>
+            <button type="submit">Add To Cart</button></button>
+        </div>
+
+    </div>
+</div>
+</body>
+
+</html>

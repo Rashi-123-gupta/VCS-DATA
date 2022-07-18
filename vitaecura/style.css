@@ -1,0 +1,25 @@
+a{
+    text-decoration: none;
+}
+.boot{
+    text-align: center;
+    margin: 30px;
+}
+.boot h1{
+    font-size: 50px;
+}
+.boot p{
+    font-size: 35px;
+    color: rgb(111, 118, 202);
+}
+.service-box{
+    border: 1px solid white;
+    box-shadow: 4px 3px 8px  black;
+    height: 101%;
+
+    
+}
+.service-box h3{
+    text-align: center;
+
+}

@@ -1,0 +1,62 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar{
+    padding-left: 171px;
+    margin-bottom: -25px;
+    background-color: rgb(152, 179, 225);
+}
+.navbar ul{
+    display: flex;
+}
+.navbar ul li{
+    margin: 10px;
+    padding: 10px;
+    color: black;
+    text-shadow: 1px 1px solid black;
+    
+}
+.navbar ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+.nav .right{
+    left: 30px;
+}
+
+.bg{
+display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+    
+}
+.container h2{
+    font-size: 40px;
+    padding: 7px;
+    margin: 11px;
+}
+.container p{
+    font-size: 18px;
+    font-family:sans-serif;
+    margin: 5px;
+}
+.btn{
+    font-size: 18px;
+    background-color: blue;
+    width: 148px;
+    height: 48px;
+    text-align: center;
+    margin-left: 43%;
+    border: 1px 1px solid brown;
+    border-radius: 25%;
+}
+.services{
+    font-size: 38px;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    
+}

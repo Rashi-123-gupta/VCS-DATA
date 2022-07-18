@@ -1,0 +1,27 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: cadetblue;
+}
+.container{
+    
+    border: 1px solid black;
+    border-radius: 27px;
+    width: 64%;
+    height: 234px;
+    display: flex;
+    margin: 205px;
+    padding: 12px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 26px;
+    justify-content: center;
+    
+}
+
+input[type="submit"]{
+    height: 25px;
+    width: 140px;
+}
